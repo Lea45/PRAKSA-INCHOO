@@ -2,60 +2,68 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link href="style.css" rel="stylesheet">
     <title>Inchoo Frontend Crash Course - HTML</title>
 
 </head>
 
 <body>
 
-    <div class="header">
-        <h1>GRABSBEE</h1>
-    </div>
+    <header class="header">
+        <h1 class="grabsbee">GRABSBEE</h1>
+    </header>
 
-    <nav>
+    <nav class="nav">
         <a href="">FREESBES</a>
         <a href="">CLOTHING</a>
         <a href="">ACCESSORIES</a>
         <a href="">CONTACT US</a>
     </nav>
 
-    <div>
-        <h2 class="div-heading"> NEWSLETTER </h2>
-        <p> Sign up for our newsletter and be the first to find out about new products, discounts and more </p>
-        <form action="subscribe.php" class="subscribe" id="subscribe">
-            <input type="email" placeholder="Placeholder" />
-            <input type="submit" class='form_submit' value="SUBSCRIBE" />
-        </form>
-    </div>
+
+    <hr>
+    <p>ovdje ce ici slider</p>
+    <main>
+        <section>
+            <h2 class="newsletter"> NEWSLETTER </h2>
+            <p class="tekst"> Sign up for our newsletter and be the first to find out about new products, discounts and
+                more
+            </p>
+            <form action="#" class="subscribe" id="subscribe">
+                <input type="email" class="placeholder" placeholder="Placeholder" />
+                <input type="submit" class="sub" value="SUBSCRIBE" />
+            </form>
+        </section>
+    </main>
 
 
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-
-                <h2 class="footer-heading">CATEGORIES</h2>
-                <ul class="list-unstyled">
-                    <li><a href="#">Frisbee</a></li>
-                    <li><a href="#">Gear</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Gifts</a></li>
-                </ul>
-
-                <h2 class="footer-heading">CONTACT US</h2>
-                <ul class="list-unstyled">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-
-            </div>
+        <div>
+            <h3 class="categories">CATEGORIES</h3>
+            <ul class="categorieslist">
+                <li>Frisbee</li>
+                <li>Gear</li>
+                <li>Accessories</li>
+                <li>Gifts</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="contact">CONTACT US</h3>
+            <ul class="contactlist">
+                <li> <a href="#"><img src="images/location.svg" alt="" /></a>Trg slobode 6</li>
+                <li>+385958811630</li>
+                <li>filip.svetlicic@gmail.com</li>
+            </ul>
         </div>
     </footer>
+
+    <div class="copyright">
+        <p class="copyright-text">copyright ® 2021 Grabsbee</p>
+    </div>
 
 </body>
 

@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    background-color: #12167A;
+    height: 96px;
+    box-sizing: border-box;
+    padding: 0px 102px;
+    display: flex;
+    align-items: center;
+}
+
+.grabsbee { /* h1 */
+    color: #FFFFFF;
+    font-family: ;
+    font-size: 48px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+}
+
+nav {
+    background-color: #EC1D2E;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 0px 103px;
+    display: flex;
+    align-items: center;
+}
+ 
+nav a {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 00.05em;
+    margin: 0px 6px;
+  }
+
+section {
+    background-color: #EC1D2E;
+    text-align: center;
+    padding: 20px;
+}
+
+.newsletter { /* h2 */
+    color: #FFFFFF;
+    font-family: ;
+    padding-bottom: 10px  
+}
+
+.tekst {
+    color: #FFFFFF;
+    font-family: ;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 30px;   
+}
+
+form {
+    text-align: center;
+}
+
+.placeholder {
+    padding: 10px 24px;
+    width: 263px;
+    border-radius: 0px; 
+}
+
+.sub {
+    color: #FFFFFF;
+    background-color: #12167A;
+    justify-content: center;
+    padding: 10px ;
+}
+
+.footer {
+    background-color: #12167A;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 25px
+}
+
+.footer > div {
+    flex: 1 1 50%;
+}
+
+.categories {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 250px;
+    padding-top: 22px;
+}
+
+.categorieslist {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+    padding-left: 250px;
+    padding-top: 22px;
+}
+
+.contact {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 22px;
+}
+
+.contactlist {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+    padding-top: 22px;
+}
+
+.copyright {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright-text {
+    color: #FFFFFF;
+}
