@@ -7,63 +7,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>Inchoo Frontend Crash Course - HTML</title>
+
+
+    <link href="swiper.min.css" rel="stylesheet">
+
+    <title>Inchoo Frontend Crash Course</title>
 
 </head>
 
 <body>
-
+    <!---------------------------------------- HEADER -------------------------------------------------->
     <header class="header">
-        <h1 class="grabsbee">GRABSBEE</h1>
+        <img class="logo" src="images/logo/grabsbee.svg" alt="logo" />
+
+        <ul class="icons">
+            <li>
+                <a href=""><img src="images/icons/search.svg" alt="search" /></a>
+            </li>
+            <li>
+                <a href=""><img src="images/icons/cart.svg" alt="cart" /></a>
+            </li>
+        </ul>
     </header>
 
+
+    <!---------------------------------------- NAVBAR -------------------------------------------------->
     <nav class="nav">
-        <a href="">FREESBES</a>
-        <a href="">CLOTHING</a>
-        <a href="">ACCESSORIES</a>
+        <a href="freesbes.html">FREESBES<img src="images/icons/down.svg" alt="down" /></a>
+        <a href="">CLOTHING<img src="images/icons/down.svg" alt="down" /></a>
+        <a href="">ACCESSORIES<img src="images/icons/down.svg" alt="down" /></a>
         <a href="">CONTACT US</a>
     </nav>
 
 
-    <hr>
-    <p>ovdje ce ici slider</p>
-    <main>
-        <section>
-            <h2 class="newsletter"> NEWSLETTER </h2>
-            <p class="tekst"> Sign up for our newsletter and be the first to find out about new products, discounts and
-                more
-            </p>
-            <form action="#" class="subscribe" id="subscribe">
-                <input type="email" class="placeholder" placeholder="Placeholder" />
-                <input type="submit" class="sub" value="SUBSCRIBE" />
-            </form>
-        </section>
-    </main>
+    <!---------------------------------------- SWIPER -------------------------------------------------->
+    <div class="swiper">
+        <div class="swiper-wrapper">
 
+            <div class="swiper-slide">
+                <a href=""><img src="images/featured-categories/gear.jpg" alt="gear" />
+                    <div class="slide-text">THE FLYING DISC STORE</div>
+                    <button class="slide-button">BUY THE DISC</button>
+                </a>
+            </div>
 
-    <footer class="footer">
-        <div>
-            <h3 class="categories">CATEGORIES</h3>
-            <ul class="categorieslist">
-                <li>Frisbee</li>
-                <li>Gear</li>
-                <li>Accessories</li>
-                <li>Gifts</li>
-            </ul>
+            <div class="swiper-slide">
+                <a href=""><img src="images/featured-categories/gifts.jpg" alt="gifts" /></a>
+            </div>
+
+            <div class="swiper-slide">
+                <a href=""><img src="images/featured-categories/accessories.jpg" alt="accessories" /></a>
+            </div>
         </div>
-        <div>
-            <h3 class="contact">CONTACT US</h3>
-            <ul class="contactlist">
-                <li> <a href="#"><img src="images/location.svg" alt="" /></a>Trg slobode 6</li>
-                <li>+385958811630</li>
-                <li>filip.svetlicic@gmail.com</li>
-            </ul>
-        </div>
-    </footer>
 
-    <div class="copyright">
-        <p class="copyright-text">copyright ® 2021 Grabsbee</p>
+        <div class="swiper-pagination"></div>
+
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
     </div>
+
+    <!---------------------------------------- CONTENT -------------------------------------------------->
+    <div class="featured-categories">
+        <h1> Featured Categories</h1>
+
+        <ul class="content-container">
+            <li class="content-image" id="background">
+                <a href=""></a>
+                <img src="images/featured-categories/frisbees.jpg" alt="frisbees" />
+            </li>
+
+            <li class="content-image">
+                <a href=""></a>
+                <img src="images/featured-categories/gear.jpg" alt="gear" />
+            </li>
+
+            <li class="content-image">
+                <a href=""></a>
+                <img src="images/featured-categories/accessories.jpg" alt="accessories" />
+            </li>
+
+            <li class="content-image">
+                <a href=""></a>
+                <img src="images/featured-categories/gifts.jpg" alt="gifts" />
+            </li>
+        </ul>
+
+        <!---------------------------------------- MAIN-SECTION -------------------------------------------------->
+
+        <main>
+            <section>
+                <h2 class="newsletter"> NEWSLETTER </h2>
+                <p class="tekst"> Sign up for our newsletter and be the first to find out about new products,
+                    discounts
+                    and
+                    more
+                </p>
+                <form action="#" class="subscribe" id="subscribe">
+                    <input type="email" class="placeholder" placeholder="Placeholder" />
+                    <input type="submit" class="sub" value="SUBSCRIBE" />
+                </form>
+            </section>
+
+        </main>
+
+
+
+        <!---------------------------------------- FOOTER -------------------------------------------------->
+        <footer class="footer">
+            <div>
+                <h3 class="categories">CATEGORIES</h3>
+                <ul class="categorieslist">
+                    <li>Frisbee</li>
+                    <li>Gear</li>
+                    <li>Accessories</li>
+                    <li>Gifts</li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3 class="contact">CONTACT US</h3>
+
+                <ul class="contactlist">
+                    <li>
+                        <a href="#"><img src="images/icons/location.svg" alt="" /></a>
+                        Trg slobode 6
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="images/icons/phone.svg" alt="" /></a>
+                        +385958811630
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="images/icons/message.svg" alt="" /></a>
+                        filip.svetlicic@gmail.com
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+
+
+        <!---------------------------------------- COPYRIGHT -------------------------------------------------->
+        <div class="copyright">
+            <p class="copyright-text">copyright ® 2021 Grabsbee</p>
+        </div>
+        <script type="text/javascript" src="swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
 
 </body>
 
