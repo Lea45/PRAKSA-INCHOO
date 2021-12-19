@@ -32,6 +32,7 @@
 
 
     <!---------------------------------------- NAVBAR -------------------------------------------------->
+<!--    bilo bi bolje da je HTML sa strukturom nav > ul > li > a-->
     <nav class="nav">
         <a href="freesbes.html">FREESBES<img src="images/icons/down.svg" alt="down" /></a>
         <a href="">CLOTHING<img src="images/icons/down.svg" alt="down" /></a>
@@ -69,10 +70,12 @@
     </div>
 
     <!---------------------------------------- CONTENT -------------------------------------------------->
+<!--    treba jako paziti da je HTML dobro strukturiran, sadrzaj koji se tu nalazi smislena ne pripada pod "featured categories" -->
     <div class="featured-categories">
         <h1> Featured Categories</h1>
 
         <ul class="content-container">
+<!--            ne treba id -->
             <li class="content-image" id="background">
                 <a href=""></a>
                 <img src="images/featured-categories/frisbees.jpg" alt="frisbees" />
@@ -95,7 +98,7 @@
         </ul>
 
         <!---------------------------------------- MAIN-SECTION -------------------------------------------------->
-
+<!--        <main> bi trebao obuhvatiti i "featured categories" -->
         <main>
             <section>
                 <h2 class="newsletter"> NEWSLETTER </h2>
@@ -105,6 +108,7 @@
                     more
                 </p>
                 <form action="#" class="subscribe" id="subscribe">
+<!--                    ne treba ti ime klase biti "placeholder" -->
                     <input type="email" class="placeholder" placeholder="Placeholder" />
                     <input type="submit" class="sub" value="SUBSCRIBE" />
                 </form>
@@ -116,6 +120,12 @@
 
         <!---------------------------------------- FOOTER -------------------------------------------------->
         <footer class="footer">
+<!--            ime CSS klasa ne bi trebalo usko povezano sa sadrzajem ako se nesto ponavlja -->
+<!--            div -> .footer__column -->
+<!--            ul -> .footer__column__list -->
+<!--            li -> .footer__column__item -->
+<!--            a -> .footer__column__link -->
+
             <div>
                 <h3 class="categories">CATEGORIES</h3>
                 <ul class="categorieslist">
