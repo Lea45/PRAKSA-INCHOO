@@ -3,57 +3,12 @@
     padding: 0%;
 }
 
-/* ---------------------------------------------------- */
-/* HEADER AND NAVBAR */
-.header {
-    background-color: #12167a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    padding-left: 100px;
-}
-
-.icons {
-    list-style: none;
-    padding: 40px;
-    padding-right: 100px;
-    display: flex;
-}
-
-.icons img {
-    padding-right: 20px;
-  }
-
-nav {
-    background-color: #EC1D2E;
-    height: 48px;
-    box-sizing: border-box;
-    padding: 0px 103px;
-    display: flex;
-    align-items: center;
-}
  
-nav a {
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 00.05em;
-    padding: 0px 6px;
-    text-decoration: none;
-    display: flex;
-  }
-/* ---------------------------------------------------- */
-
- /* FOOTER */
-
- .footer {
+/* --------------------------------------- FOOTER -----------------------------------------------*/
+ .footer-container {
     background-color: #FFFFFF;
     display: flex;
-    align-items: flex-start;
-    margin: 24px 0px;
+    padding-bottom: 25px;
 }
 
 
@@ -63,55 +18,55 @@ nav a {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    padding-left: 250px;
-    
-   
+    padding-top: 22px;
+    padding-left: 220px;
 }
 
 .ultimate-list {
     color: #000000;
     font-style: normal;
+    list-style: none;
     font-size: 14px;
     line-height: 24px;
-    list-style: none;
-    padding-left: 250px;
-   padding-top: 22px;
+    padding-top: 22px;
+    padding-left: 220px;
 }
 
 .recreational {
     color: #000000;
     font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    padding-left: 40px;
+    padding-top: 22px;
+    padding-left: 130px;
 }
 
 .recreational-list {
     color: #000000;
     font-style: normal;
+    list-style: none;
     font-size: 14px;
     line-height: 24px;
-    list-style: none;
     padding-top: 22px;
-    padding-left: 40px;
+    padding-left: 130px;
 }
 
 .contact {
     color: #000000;
     font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    padding-left: 40px;
+    padding-top: 22px; 
     
 }
 
 .contact-list {
     color: #000000;
     font-style: normal;
+    list-style: none;
     font-size: 14px;
     line-height: 24px;
-    list-style: none;
     padding-top: 22px;
-    padding-top: 22px;
-    padding-left: 40px;
 }

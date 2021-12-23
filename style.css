@@ -3,7 +3,10 @@
     padding: 0%;
 }
 
-.header {
+
+
+/* --------------------------------------- HEADER -----------------------------------------------*/
+.header-container {
     background-color: #12167a;
     display: flex;
     justify-content: space-between;
@@ -25,6 +28,10 @@
     padding-right: 20px;
   }
 
+
+
+
+/* --------------------------------------- NAVBAR -----------------------------------------------*/
 nav {
     background-color: #EC1D2E;
     height: 48px;
@@ -44,6 +51,46 @@ nav a {
     display: flex;
   }
 
+
+
+ /* --------------------------------------- SWIPER -----------------------------------------------*/
+  .swiper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide-text {
+    color:#FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    text-shadow: 1px 1px 0px red;
+  }
+  
+  .slide-button {
+    background-color: #12167A;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 150px;
+  }
+  
+  .text-image {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+  }
+
+
+
+/* --------------------------------------- CONTENT -----------------------------------------------*/
 .featured-categories h1 {
     text-align: center;
     line-height: 80px;
@@ -57,6 +104,7 @@ nav a {
    max-width: 100%; 
    height: auto;
    list-style: none;
+
 }
 
 .content-image img {
@@ -67,6 +115,7 @@ nav a {
 .content-image {
     margin: 5px;
     padding: 25px 5px;
+    position: relative;
 }
 
 .content-image a {
@@ -79,6 +128,9 @@ nav a {
     padding: 100px 20px;
 }
 
+
+
+/* ------------------------------------- MAIN-SECTION ---------------------------------------------*/
 section {
     background-color: #EC1D2E;
     text-align: center;
@@ -87,13 +139,11 @@ section {
 
 .newsletter { /* h2 */
     color: #FFFFFF;
-    font-family: ;
     padding-bottom: 10px  
 }
 
 .tekst {
     color: #FFFFFF;
-    font-family: ;
     font-size: 14px;
     line-height: 18px;
     padding-bottom: 30px;   
@@ -116,14 +166,17 @@ form {
     padding: 10px ;
 }
 
-.footer {
+
+
+/* --------------------------------------- FOOTER -----------------------------------------------*/
+.footer-container {
     background-color: #12167A;
     display: flex;
     align-items: flex-start;
     padding-bottom: 25px
 }
 
-.footer > div {
+.footer-container > div {
     flex: 1 1 50%;
 }
 
@@ -165,6 +218,9 @@ form {
     padding-top: 22px;
 }
 
+
+
+/* --------------------------------------- COPYRIGHT -----------------------------------------------*/
 .copyright {
     background-color: #000000;
     text-align: center;
@@ -175,29 +231,3 @@ form {
     color: #FFFFFF;
 }
 
-.swiper img {
-  width: 100%;
-  height: auto;
-}
-
-.slide-text {
-  color:#FFFFFF;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 50px;
-}
-
-.slide-button {
-  background-color: #12167A;
-  color: #FFFFFF;
-  font-weight: bold;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 50px;
-  width: 150px;
-}
